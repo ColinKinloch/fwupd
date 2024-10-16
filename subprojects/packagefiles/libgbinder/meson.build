@@ -56,6 +56,7 @@ libgbinder = library(
     sources: libgbinder_sources,
     dependencies: libgbinder_deps,
     include_directories: include_directories('include'),
+    install: true,
 )
 
 libgbinder_dep = declare_dependency(
